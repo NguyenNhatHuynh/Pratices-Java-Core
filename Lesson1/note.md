@@ -105,3 +105,86 @@ Các hàm toán học có thể kể tới như:
 - Làm tròn số...
 https://www.w3schools.com/java/java_math.asp
 https://www.w3schools.com/java/java_ref_math.asp
+
+
+
+
+
+Chapter 2: Lab 02
+Thực hành câu điều kiện với Java
+#10. Java Data Types (Kiểu dữ liệu)
+https://www.w3schools.com/java/java_data_types.asp
+int myNum = 5; // Integer (whole number)
+float myFloatNum = 5.99f; // Floating point number
+char myLetter = 'D'; // Character
+boolean myBool = true; // Boolean
+String myText = "Hello"; // String
+Kiểu dữ liệu được chia thành 2 nhóm:
+Primitive data types (dữ liệu nguyên thủy), bao gồm: byte, short, int, long, float, double,
+boolean, char
+Non-primitive data types : String, Arrays and Classes (sẽ học sau)
+1. Kiểu dữ liệu nguyên thủy
+Data Type Size Description
+byte 1 byte Stores whole numbers from -128 to 127
+short 2 bytes Stores whole numbers from -32,768 to 32,767
+int 4 bytes Stores whole numbers from -2,147,483,648 to 2,147,483,647
+long 8 bytes Stores whole numbers from -9,223,372,036,854,775,808 to
+9,223,372,036,854,775,807
+float 4 bytes Stores fractional numbers. Sufficient for storing 6 to 7 decimal
+digits
+double 8 bytesStores fractional numbers. Sufficient for storing 15 decimal digits
+boolean 1 bit Stores true or false values
+char 2 bytes Stores a single character/letter or ASCII values
+2. Java Numbers
+https://www.w3schools.com/java/java_data_types_numbers.asp
+Được chia thành 2 nhóm:
+- Integer Types: lưu trữ số nguyên, bao gồm: byte, short, int và long
+- Float point types: lưu trữ số thực, bao gồm: float, double
+2.1 Byte
+ví dụ:
+
+Khóa Học Java Core - Youtube Channel ‘Hỏi Dân IT’
+
+21
+
+byte myNum = 100;
+System.out.println(myNum);
+=> lưu trữ dữ liệu từ -128 tới 127 (dùng để save memory, vì byte chiếm 1 byte)
+
+
+
+
+
+
+#12. Java If...Else
+https://www.w3schools.com/java/java_conditions.asp
+1. If
+Cú pháp:
+if(<điều kiện>) {
+<công_việc>
+}
+=> Nếu <điều_kiện> == true => <công_việc> được thực hiện
+ví dụ:
+int score = 3;
+if (score < 4) {
+System.out.println("Tạch rồi, học lại đêeeeeeee");
+}
+int score = 5;
+if (score < 4) {
+System.out.println("Tạch rồi, học lại đêeeeeeee");
+}
+2. If...else
+if(<điều_kiện>) {
+<công_việc_1>
+}
+else {
+<công_việc_2>
+}
+=> nếu <điều_kiện> == true => <công_việc_1> được thực hiện. ngược lại, <công_việc_2>
+được thực hiện
+int score = 3;
+if (score < 4) {
+System.out.println("Tạch rồi, học lại đêeeeeeee");
+}else {
+System.out.println("Qua môn rồi mày ơiiiiii");
+}
