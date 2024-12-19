@@ -114,14 +114,13 @@ Khóa học được chia thành 11 chapters, với các chủ đề sau:
 ## To-Do List Học Tập
 Bạn có thể đánh dấu vào các mục đã hoàn thành trong khóa học này:
 
-- [ ] **Chapter 1: Lab 01**
-    - [ ] Java là gì?
-    - [ ] Setup Java
-    - [ ] Hello World with Java
-    - [ ] Setup Spring Tool Suite 10
-    - [ ] Variables (Khái niệm biến)
-    - [ ] Các hàm xuất ra màn hình
-    - [ ] Các hàm toán học
+- [] **Chapter 1: Lab 01**
+    - [x] Java là gì?
+    - [x] Setup Java
+    - [x] Hello World with Java
+    - [x] Variables (Khái niệm biến)
+    - [x] Các hàm xuất ra màn hình
+    - [x] Các hàm toán học
     - [ ] Bài tập Lab 01
     - [ ] Chữa bài tập Lab 01
 
