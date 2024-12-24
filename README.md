@@ -121,18 +121,18 @@ Bạn có thể đánh dấu vào các mục đã hoàn thành trong khóa học
     - [x] Variables (Khái niệm biến)
     - [x] Các hàm xuất ra màn hình
     - [x] Các hàm toán học
-    - [ ] Bài tập Lab 01
-    - [ ] Chữa bài tập Lab 01
+    - [x] Bài tập Lab 01
+    - [x] Chữa bài tập Lab 01
 
-- [ ] **Chapter 2: Lab 02**
-    - [ ] Java Data Types (Kiểu dữ liệu)
-    - [ ] Java Operators (Toán tử)
-    - [ ] Java If...Else
-    - [ ] Java Switch
-    - [ ] Bài tập Lab 02
-    - [ ] Chữa bài tập Lab 02
+- [x] **Chapter 2: Lab 02**
+    - [x] Java Data Types (Kiểu dữ liệu)
+    - [x] Java Operators (Toán tử)
+    - [x] Java If...Else
+    - [x] Java Switch
+    - [x] Bài tập Lab 02
+    - [x] Chữa bài tập Lab 02
 
-- [ ] **Chapter 3: Lab 03**
+- [x] **Chapter 3: Lab 03**
     - [ ] Vòng lặp (Loop)
     - [ ] Array
     - [ ] Luyện tập Array và Loop
