@@ -114,7 +114,7 @@ Khóa học được chia thành 11 chapters, với các chủ đề sau:
 ## To-Do List Học Tập
 Bạn có thể đánh dấu vào các mục đã hoàn thành trong khóa học này:
 
-- [] **Chapter 1: Lab 01**
+- [x] **Chapter 1: Lab 01**
     - [x] Java là gì?
     - [x] Setup Java
     - [x] Hello World with Java
@@ -133,9 +133,9 @@ Bạn có thể đánh dấu vào các mục đã hoàn thành trong khóa học
     - [x] Chữa bài tập Lab 02
 
 - [x] **Chapter 3: Lab 03**
-    - [ ] Vòng lặp (Loop)
-    - [ ] Array
-    - [ ] Luyện tập Array và Loop
+    - [x] Vòng lặp (Loop)
+    - [x] Array
+    - [x] Luyện tập Array và Loop
     - [ ] Bài tập Lab 03
     - [ ] Chữa bài tập Lab 03
 
