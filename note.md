@@ -188,3 +188,19 @@ System.out.println("Tạch rồi, học lại đêeeeeeee");
 }else {
 System.out.println("Qua môn rồi mày ơiiiiii");
 }
+
+
+
+
+
+
+
+
+
+
+
+#18. Luyện tập Array và Loop
+1. Các method của Array
+- array.length
+Array.sort
+Arrays.toString(a)
