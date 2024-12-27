@@ -2,6 +2,7 @@ package Lesson3;
 
 import java.util.Scanner;
 
+// Bai 2 : Viet Bang cuu chuong cua 1 so nguyen
 public class Lab3_Bai2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
