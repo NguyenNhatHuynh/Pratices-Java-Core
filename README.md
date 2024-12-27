@@ -136,8 +136,8 @@ Bạn có thể đánh dấu vào các mục đã hoàn thành trong khóa học
     - [x] Vòng lặp (Loop)
     - [x] Array
     - [x] Luyện tập Array và Loop
-    - [ ] Bài tập Lab 03
-    - [ ] Chữa bài tập Lab 03
+    - [x] Bài tập Lab 03
+    - [x] Chữa bài tập Lab 03
 
 - [ ] **Chapter 4: Lab 04**
     - [ ] Lập trình hướng đối tượng (OOP) là gì?
