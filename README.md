@@ -141,6 +141,12 @@ Bạn có thể đánh dấu vào các mục đã hoàn thành trong khóa học
 
 - [ ] **Chapter 4: Lab 04**
     - [x] Lập trình hướng đối tượng (OOP) là gì?
+        - Lập trình hướng đối tượng (Object-Oriented Programming) là phương pháp lập trình dựa trên việc sử dụng các đối tượng (objects) và lớp (classes). OOP tổ chức chương trình thành các thực thể có tính độc lập, mỗi thực thể là một đối tượng có thuộc tính và hành vi.
+        - Đặc điểm chính:
+            + Tính đóng gói (Encapsulation): Gộp dữ liệu và các phương thức xử lý dữ liệu vào trong một lớp. Bên ngoài không thể truy cập trực tiếp vào dữ liệu nếu không thông qua phương thức lớp.
+            + Tính kế thừa (Inheritance): Một lớp có thể kế thừa thuộc tính và phương thức từ lớp khác.
+            + Tính đa hình (Polymorphism): Các đối tượng có thể có nhiều hình thái khác nhau.
+            + Tính trừu tượng (Abstraction): Chỉ hiển thị các thuộc tính, hành vi cần thiết, che giấu chi tiết phức tạp.
     - [x] Khái niệm Class và Object
     - [ ] Thực hành tạo Class/Object
     - [ ] Class Attributes (Thuộc tính của Class)
