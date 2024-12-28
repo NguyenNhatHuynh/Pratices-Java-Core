@@ -140,8 +140,8 @@ Bạn có thể đánh dấu vào các mục đã hoàn thành trong khóa học
     - [x] Chữa bài tập Lab 03
 
 - [ ] **Chapter 4: Lab 04**
-    - [ ] Lập trình hướng đối tượng (OOP) là gì?
-    - [ ] Khái niệm Class và Object
+    - [x] Lập trình hướng đối tượng (OOP) là gì?
+    - [x] Khái niệm Class và Object
     - [ ] Thực hành tạo Class/Object
     - [ ] Class Attributes (Thuộc tính của Class)
     - [ ] Class Method (Phương thức của class)
