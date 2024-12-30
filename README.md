@@ -156,7 +156,20 @@ Bạn có thể đánh dấu vào các mục đã hoàn thành trong khóa học
     - [x] Class Attributes (Thuộc tính của Class)
     - [x] Class Method (Phương thức của class)
     - [x] Định nghĩa hàm tạo (constructor)
-    - [ ] Access Modifier (private/public/protected)
+    - [x] Access Modifier (private/public/protected)
+         - Link StackOverFlow: [Link StackOverFlow](https://stackoverflow.com/questions/215497/what-is-the-difference-between-public-protected-package-private-and-private-in)
+           <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+            <img src="https://imgur.com/HfSfowi.png" alt="Image 1" style="width: 45%; height: auto; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+           <img src="https://imgur.com/FCvEd9y.png" alt="Image 1" style="width: 45%; height: auto; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+            </div>
+
+        - Mức độ truy cập (từ rộng nhất đến hẹp nhất): 
+    
+           ```bash
+               public > protected > package-private > private
+           ```
+
+
     - [ ] Encapsulation
     - [ ] Bài tập Lab 04
     - [ ] Chữa bài tập Lab 04
