@@ -152,10 +152,10 @@ Bạn có thể đánh dấu vào các mục đã hoàn thành trong khóa học
         - Object là các thực thể chi tiết của class đấy (instance)
         -  *Class is a template for objects, and an object is an instance of a class. => lớp là mẫu cho các đối tượng và đối tượng là một thể hiện của một lớp.
         -  *When the individual objects are created, they inherit all the variables and methods from the class. => Khi các đối tượng riêng lẻ được tạo, chúng kế thừa tất cả các biến và phương thức từ lớp.
-    - [ ] Thực hành tạo Class/Object
-    - [ ] Class Attributes (Thuộc tính của Class)
-    - [ ] Class Method (Phương thức của class)
-    - [ ] Định nghĩa hàm tạo (constructor)
+    - [x] Thực hành tạo Class/Object
+    - [x] Class Attributes (Thuộc tính của Class)
+    - [x] Class Method (Phương thức của class)
+    - [x] Định nghĩa hàm tạo (constructor)
     - [ ] Access Modifier (private/public/protected)
     - [ ] Encapsulation
     - [ ] Bài tập Lab 04
