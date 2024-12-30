@@ -204,3 +204,207 @@ System.out.println("Qua môn rồi mày ơiiiiii");
 - array.length
 Array.sort
 Arrays.toString(a)
+
+
+==========================================
+
+Chapter 4: Lab 04
+Thực hành sử dụng OOP (lập trình hướng đối tượng)
+
+#21. Lập trình hướng đối tượng (OOP) là gì ?
+    - OOP: Object-Oriented Programming
+    - At the end of the day: chương trình/phần mềm/app là tập hợp của các khối code (block code) và máy tính thực hiện tuần tự theo yêu cầu của người dùng. Máy tính chỉ có thể "chạy từng dòng lệnh"
+
+Có rất nhiều cách để hoàn thiện 1 chương trình:
+    - procedural programming (pascal) /structure programming
+    - functional programming (react hook vs react class component)
+    - object oriented programming
+    ...
+
+=> Cách làm nào không quan trọng, điều quan trọng là nó giải quyết tốt vấn đề bạn gặp phải.
+
+OOP có các lợi thế:
+    - Clear Structure : cấu trúc rõ ràng
+    - Reuse application code : tính tái sử dụng code cao => dễ dàng maintain (bảo trì), modify (sửa đổi) và debug (fix bug)
+    - designing large and complex programs (tương tự angular) : mục tiêu giải quyết các bài toán phức tạp
+
+Vậy OOP là gì ?
+    - OOP là cách chúng ta mô phỏng thế giới thực (real world) vào chương trình (program) máy tính.
+
+    - Tất cả các "đối tượng" tham gia vào chương trình chính là những thành phần chủ chốt.
+
+
+=> OOP Thiên hướng "Mô phỏng" những điều bạn thấy (sử dụng) ở thế giới thực tế vào thế giới programing (Coding).
+
+
+
+#22. Khái niệm Class và Object
+Để mô phỏng "real world", chúng ta cần các "đối tượng" (target)
+Đối với 1 sinh vật/đồ vật trong thế giới thực, điều có điều miêu tả bởi 2 thứ:
+
+    - Đặc điểm (thuộc tính)
+    - Hành vi đặc trưng của nó
+
+Ví dụ:
+Miêu tả con sư tử: (sinh vật)
+    - Đặc điểm (thuộc tính):
+        + Có lông
+        + thuộc họ mèo
+    - Hành vi:
+    + đi săn mồi
+
+
+Miêu tả 1 bạn sinh viên: (sinh vật)
+    - Đặc điểm:
+        + có mã số sinh viên
+        + có địa chỉ sinh sống
+        + có tên lớp học
+    - Hành vi:
+        + ôn tủ cho qua môn
+        + ngủ nướng qua ngày
+        + xem youtube lấy kiến thức qua môn
+
+Miêu tả 1 cái máy tính (đồ vật)
+    - Đặc điểm:
+            + có dung lượng ổ cứng (SSD/HDD)
+            + có dung lượng bộ nhớ (RAM)
+    - Hành vi:
+            + có thể on/off/restart
+
+=> Sử dụng "đối tượng" để mô hình hóa.
+Tuy nhiên, chúng ta không "miêu tả chi tiết", chỉ miêu tả "đối tượng tổng quát" (đây gọi là tính trừu tượng hóa/abstraction)
+
+
+Ví dụ, thay vì miêu tả cụ thể sinh viên A, B, C, D ... chúng ta gọi chung là sinh viên:
+
+Đối tượng tổng quát được gọi là Class (Lớp), còn mỗi sinh viên cụ thể gọi là Object (đối tượng).
+
+Ví dụ:
+class SinhVien gồm:
+    - Thuộc tính (đặc điểm)
+        + Tên
+        + mã số sinh viên
+    - Hành vi:
+        + ăn/ngủ/nghỉ/ôn thi
+
+=> Để có tính tái sử dụng code cao, OOP chỉ "định nghĩa" lớp tổng quát. còn muốn có chi tiết => thì chúng ta tự tạo ra
+
+Ví dụ, để tạo ra sinh viên A thì:
+    + gán Tên = A
+    + gán mã số sinh viên = 1234
+
+Tương tự, tạo ra sinh viên B thì:
+    + gán Tên = B
+    + gán mã số sinh = 6789
+
+
+
+
+#24. Class Attributes (Thuộc tính của Class)
+Attributes/Fields là các biến dùng để thể hiện giá trị cho class
+
+=> thường được khai báo bên trong class (đầu hàm)
+    - Không giới hạn số lượng thuộc tính của 1 class
+    - Để truy cập/sửa đổi => sử dụng object.attribute
+    - Tên thuộc tính là danh từ, và viết camelCase
+
+
+
+
+
+#25. Class Method (Phương thức của class)
+1. Định nghĩa method thông thường
+Method là cách tượng trưng cho hành động của object.
+Tên method thường viết theo camelCase, và là các động từ (chỉ hành động)
+
+Cú pháp:
+    <return_type> <method_name> ([parameters]) { //code}
+    <kiểu_trả_về> <tên_method> ([danh_sách_tham_số]) { //code}
+    
+    ví dụ:
+        void getName(){
+            //
+        }
+        int getTuoi(){
+            ///
+        }
+
+- Với void => return "nothing"
+
+
+
+2. Method Overloading (Nạp chồng phương thức)
+- Chúng ta có thể định nghĩa các method với tên giống nhau (nhưng khác nhau về tham số)
+
+    void method( ){ }
+    void method(int a){ }
+    void method(int a, String b){ }
+
+
+
+
+#26. Định nghĩa hàm tạo (constructor)
+1. Constructor
+Hàm tạo là một "method đặc biệt" dùng để tạo ra object
+    - Constructor "phải có tên giống với class", và không thể có "return type"
+    - Tất cả các class đều cần có "hàm tạo". Nếu bạn không tạo => java sẽ tự động tạo cho bạn (không có tham số đầu vào)
+
+Ví dụ:
+    public Student (String name, int age){
+        this.name = name;
+        this.age = age;
+    }
+
+2. Keyword this
+- Dùng để "tham chiếu" tới giá trị của instance/object hiện tại (tương tự con trỏ của C :v)
+
+//tạo mới object với hàm 
+
+
+
+
+
+#27. Access Modifier (private/public/protected)
+Link 1: 
+    https://www.w3schools.com/java/java_modifiers.asp
+
+Link 2:
+    https://stackoverflow.com/questions/215497/what-is-the-difference-between-public-
+    protected-package-private-and-private-in
+
+1. Khái niệm package
+package === folder
+
+    => được sử dụng để "gom nhóm" file lại với nhau => cho gọn gàng, dễ tái sử dụng
+
+- Keyword import:
+    + được sử dụng để import (tái sử dụng lại) các class đã được định nghĩa trong các package
+
+2. Access Modifier
+Access Modifier : quyền truy cập sử dụng/sửa đổi
+Trong java, có 4 thuộc tính hay dùng nhất:
+- private: chỉ được sử dụng trong nội bộ class
+- public : công khai hoàn toàn (100%)
+- (default): là public đối với class trong cùng package. là private khi khác package
+
+- protected: được sử dụng với lớp cha/con (tính chất kế thừa : sẽ đề cập sau)
+
+=> public và private là 2 thuộc tính được sử dụng nhiều nhất
+Mức độ che dấu tăng dần theo mũi tên:
+
+public -> protected -> {default} -> private
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+====================================================    

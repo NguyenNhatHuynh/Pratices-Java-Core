@@ -60,7 +60,7 @@ public class Lab3_Bai3 {
         System.out.println(" ");
 
         // ======= Đọan mã này dùng để Xuất Phần tử có giá trị nhỏ nhất
-        int min = 0;
+        int min = arrayNumbers[0];
         for (int i = 0; i < arrayNumbers.length - 1; i++) {
             for (int j = i + 1; j < arrayNumbers.length; j++) {
                 min = Math.min(arrayNumbers[i], arrayNumbers[j]);
@@ -69,7 +69,7 @@ public class Lab3_Bai3 {
         System.out.println("So nho nhat trong mang la: " + min);
 
         // ======= Đọan mã này dùng để Xuất Phần tử có giá trị lớn nhất
-        int max = 0;
+        int max = arrayNumbers[0];
         for (int i = 0; i < arrayNumbers.length; i++) {
             if (arrayNumbers[i] > max) {
                 max = arrayNumbers[i];
