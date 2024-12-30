@@ -170,9 +170,9 @@ Bạn có thể đánh dấu vào các mục đã hoàn thành trong khóa học
            ```
 
 
-    - [ ] Encapsulation
-    - [ ] Bài tập Lab 04
-    - [ ] Chữa bài tập Lab 04
+    - [x] Encapsulation
+    - [x] Bài tập Lab 04
+    - [x] Chữa bài tập Lab 04
 
 - [ ] **Chapter 5: Lab 05**
     - [ ] Non-primitive (reference) data type
