@@ -13,6 +13,30 @@ public class Product {
         this.tax = tax;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public double getTax() {
+        return tax;
+    }
+
+    public void setTax(double tax) {
+        this.tax = tax;
+    }
+
     public void nhapThongTin() {
         Scanner scanner = new Scanner(System.in);
 
@@ -50,5 +74,14 @@ public class Product {
 
         System.out.println("\nThông tin sản phẩm 2:");
         product2.xuatThongTin();
+
+        // Cập nhật thông tin của sản phẩm 1 bằng setter
+        product1.name = "Iphone";
+        product1.price = 100.00;
+        product1.tax = 10.0;
+
+        // In lại thông tin của sản phẩm 1 sau khi cập nhật
+        System.out.println("\nThông tin sản phẩm 1 sau khi cập nhật: ");
+        product1.xuatThongTin();
     }
 }
