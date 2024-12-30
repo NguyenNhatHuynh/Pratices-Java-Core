@@ -3,9 +3,15 @@ package Lesson4.Lab4;
 import java.util.Scanner;
 
 public class Product {
-    String name;
-    double price;
-    double tax;
+    private String name;
+    private double price;
+    private double tax;
+
+    public Product(String name, double price, double tax) {
+        this.name = name;
+        this.price = price;
+        this.tax = tax;
+    }
 
     public void nhapThongTin() {
         Scanner scanner = new Scanner(System.in);
@@ -35,8 +41,14 @@ public class Product {
 
     public static void main(String[] args) {
         // Tạo đối tượng Product và nhập/xuất thông tin
-        Product product = new Product();
-        product.nhapThongTin();
-        product.xuatThongTin();
+        Product product1 = new Product("LapTop", 200.0, 10.0);
+        Product product2 = new Product("Smartphone", 1500.0, 8.0);
+
+        // In thông tin của 2 sản phẩm
+        System.out.println("Thông tin sản phẩm 1:");
+        product1.xuatThongTin();
+
+        System.out.println("\nThông tin sản phẩm 2:");
+        product2.xuatThongTin();
     }
 }
