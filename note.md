@@ -398,9 +398,106 @@ public -> protected -> {default} -> private
 
 
 
+Chapter 5: Lab 05
+Java ArrayList
+
+#31. Non-primitive(reference) data type
+    1. Primitive type (Kiểu dữ liệu nguyên thủy)
+    https://www.w3schools.com/java/java_data_types.asp
+    https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
+
+    Bao gồm: (8 loại)
+    byte, short, int, long (số nguyên)
+    float, double (số thực/số thập phân)
+    char (kí tự)
+    boolean
+
+    Thực tế, kiểu dữ liệu String không là kiểu dữ liệu nguyên thủy. cơ mà chúng ta hay dùng nó như là dữ liệu nguyên thủy =))
+
+    String (chuỗi)
+
+    2. Non-Primitive type (reference data type)
+    https://stackoverflow.com/questions/29284402/why-do-reference-data-types-point
+
+    Kiểu dữ liệu "không nguyên thủy" (kiểu dữ liệu tham chiếu) là các kiểu dữ liệu do "lập trình viên" định nghĩa ra, bao gồm:
+    Class, Interface, Array (gọi chung là Object)
+
+    => Non-Primitive type "viết hoa chữ cái đầu tiên"
 
 
 
+
+
+#32. Java Autoboxing/Unboxing (Object wrapper class)
+Java là OOP (lập trình hướng đối tượng), và đa phần các công cụ hỗ trợ "Object" và không hỗ trợ primitive type
+    
+    ví dụ: Generic (từ java v5) không hỗ trợ "kiểu dữ liệu nguyên thủy" (hiểu đơn giản là đảm
+    bảo hiệu năng cao)
+
+    https://stackoverflow.com/questions/2721546/why-dont-java-generics-support-
+    primitive-types
+
+    => cần có 1 giải pháp để convert "primitive type" => "non-primitive-type"
+
+    => object wrapper class ra đời.
+    boolean, byte, short, char, int, long, float, double
+
+    => được convert thành:
+    Boolean, Byte, Short, Character, Integer, Long, Float, Double
+
+    Tạo wrapper class:
+    Integer object = new Integer(1); //lưu ý là có keyword new (sẽ học trong chapter sau)
+
+    => convert ngược lại: int val = object.intValue();
+
+1. Auto boxing và unboxing
+    "Boxing": convert từ primitive value (giá trị nguyên thủy) => chuyển thành object(wrapper class)
+
+    "unboxing": là quá trình ngược lại, từ object => giá trị nguyên thủy
+
+    => Công việc Boxing/Unboxing do compiler "tự động làm"
+    (nên gọi là autoboxing/unboxing :v)
+
+    Ví dụ:
+    https://docs.oracle.com/javase/tutorial/java/data/autoboxing.html
+
+
+
+
+#33. ArrayList là gì ?
+Tài liệu: https://www.w3schools.com/java/java_arraylist.asp
+Bên cạnh kiểu dữ liệu String, Array là một trong các kiểu dữ liệu được sử dụng nhiều nhất trong lập trình.
+
+Ví dụ về array:
+    int [ ] myArray = { 1, 2, 9, 6, 10};
+
+Tuy nhiên, nếu sử dụng Array thuần túy, đang tồn tại các nhược điểm sau:
+
+    - Số lượng phần tử của Array là cố định (không thể thêm/xóa bớt phần tử)
+    ở ví dụ trên, myArray có length = 5
+    - Nếu khai báo Array có nhiều phần tử, mà không dùng hết slot => lãng phí bộ nhớ
+    => ArrayList ra đời để khắc phục nhược điểm trên (flexible: thêm/xóa phần tử...)
+
+1. Định nghĩa
+- Không khai báo type (hạn chế sử dụng):
+    ArrayList a = new ArrayList();
+    a.add("Hỏi Dân IT") ; //String
+    a.add(26); //int => autoboxing, compiler tự động convert từ int sang Integer
+
+    Integer x = (Integer) a.get(1); //cần ép kiểu
+
+
+- Khai báo type cụ thể:
+    ArrayList<String> b = new ArrayList<String>();
+    b.add("Xoan Dev")
+    b.add("Youtube")
+    String name = b.get(1); //không cần ép kiểu
+
+2. Các method hay dùng
+    add : thêm phần tử vào cuối
+    remove: xóa
+    clear: xóa tất cả
+    get: truy xuất phần tử tại vị trí
 
 
 
