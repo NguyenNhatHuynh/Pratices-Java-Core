@@ -20,6 +20,6 @@ abstract class NhanVien {
     }
 
     public void xuatThongTin() {
-        System.out.printf(" Loai Nhan Vien: " + nameEmployee, " Tien Luong: " + tinhLuong());
+        System.out.println("Tên: " + nameEmployee + ", Lương: " + tinhLuong());
     }
 }
