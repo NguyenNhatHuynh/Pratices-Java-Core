@@ -175,8 +175,8 @@ Bạn có thể đánh dấu vào các mục đã hoàn thành trong khóa học
     - [x] Chữa bài tập Lab 04
 
 - [ ] **Chapter 5: Lab 05**
-    - [ ] Non-primitive (reference) data type
-    - [ ] Java Autoboxing/Unboxing (Object wrapper class)
+    - [x] Non-primitive (reference) data type
+    - [x] Java Autoboxing/Unboxing (Object wrapper class)
     - [ ] ArrayList là gì?
     - [ ] Java Generics (Basic)
     - [ ] Bài tập Lab 05
