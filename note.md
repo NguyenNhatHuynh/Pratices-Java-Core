@@ -502,6 +502,59 @@ Tuy nhiên, nếu sử dụng Array thuần túy, đang tồn tại các nhượ
 
 
 
-
-
 ====================================================    
+Chapter 5: 
+
+#33. ArrayList là gì ?
+Tài liệu: https://www.w3schools.com/java/java_arraylist.asp
+Bên cạnh kiểu dữ liệu String, Array là một trong các kiểu dữ liệu được sử dụng nhiều
+nhất trong lập trình.
+
+Ví dụ về array:
+    int [ ] myArray = { 1, 2, 9, 6, 10};
+
+Tuy nhiên, nếu sử dụng Array thuần túy, đang tồn tại các nhược điểm sau:
+
+    - Số lượng phần tử của Array là cố định (không thể thêm/xóa bớt phần tử)
+    ở ví dụ trên, myArray có length = 5
+    - Nếu khai báo Array có nhiều phần tử, mà không dùng hết slot => lãng phí bộ nhớ
+
+    => ArrayList ra đời để khắc phục nhược điểm trên (flexible: thêm/xóa phần tử...)
+
+1. Định nghĩa
+- Không khai báo type (hạn chế sử dụng):
+    ArrayList a = new ArrayList();
+    a.add("Xoan Dev") ; //String
+    a.add(26); //int => autoboxing, compiler tự động convert từ int sang Integer
+    Integer x = (Integer) a.get(1); //cần ép kiểu
+
+- Khai báo type cụ thể:
+    ArrayList<String> b = new ArrayList<String>();
+    b.add("Xoan Dev")
+    b.add("Youtube")
+    String name = b.get(1); //không cần ép kiểu
+
+
+2. Các method hay dùng
+    add : thêm phần tử vào cuối
+    remove: xóa
+    clear: xóa tất cả
+    get: truy xuất phần tử tại vị trí
+
+-------------------------
+Generic 
+
+Trong Java, Generic là một tính năng cho phép bạn viết mã mà có thể làm việc với nhiều kiểu dữ liệu khác nhau mà không cần phải xác định kiểu dữ liệu cụ thể khi viết mã.
+
+Đơn giản nhất, Generic giống như một "hộp chứa" mà bạn có thể bỏ vào bất kỳ loại dữ liệu nào bạn muốn, và Java sẽ giúp bạn kiểm soát kiểu dữ liệu bên trong hộp đó để tránh lỗi.
+
+
+
+Lý do sử dụng Generic:
+
+- Tính linh hoạt: Bạn có thể tái sử dụng mã mà không phải viết lại cho từng kiểu dữ liệu.
+
+- Kiểm tra kiểu dữ liệu tại biên dịch: Java sẽ kiểm tra kiểu dữ liệu khi biên dịch thay vì khi chạy chương trình, giúp phát hiện lỗi sớm.
+
+- Giảm thiểu ép kiểu (casting): Bạn không cần phải ép kiểu khi lấy giá trị từ Generic, điều này giúp mã dễ đọc và tránh lỗi.
+
