@@ -174,16 +174,16 @@ Bạn có thể đánh dấu vào các mục đã hoàn thành trong khóa học
     - [x] Bài tập Lab 04
     - [x] Chữa bài tập Lab 04
 
-- [ ] **Chapter 5: Lab 05**
+- [x] **Chapter 5: Lab 05**
     - [x] Non-primitive (reference) data type
     - [x] Java Autoboxing/Unboxing (Object wrapper class)
-    - [ ] ArrayList là gì?
-    - [ ] Java Generics (Basic)
-    - [ ] Bài tập Lab 05
-    - [ ] Chữa bài tập Lab 05
+    - [x] ArrayList là gì?
+    - [x] Java Generics (Basic)
+    - [x] Bài tập Lab 05
+    - [x] Chữa bài tập Lab 05
 
 - [ ] **Chapter 6: Lab 06**
-    - [ ] String (Chuỗi)
+    - [x] String (Chuỗi)
     - [ ] Bài tập sử dụng String
     - [ ] Regular Expression
     - [ ] Bài tập Regular Expression

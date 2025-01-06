@@ -612,3 +612,34 @@ Hãy tưởng tượng bạn có một chiếc hộp để đựng bóng.
     - ArrayList: Là một chiếc hộp co giãn, bạn có thể thêm hoặc bớt bóng mà không cần lo lắng về kích thước. Nếu không đủ chỗ, chiếc hộp sẽ tự mở rộng.
 
 -------------
+
+
+Chapter 6: Lab 06
+Java String
+#37. String (Chuỗi)
+Why String ?
+String là loại dữ liệu được dùng nhiều nhất trong ngôn ngữ lập trình.
+
+1. String data type
+    - String được dùng để lưu trữ "chuỗi ký tự".
+    Nếu như char là lưu trữ "ký tự đơn lẻ", String dùng để lưu trữ nhiều ký tự (chuỗi)
+    Với java, String (chữ S viết hoa) là một "Class" được xây dựng sẵn (non-primitive data
+    type)
+
+    Ví dụ: String a = "Hello World";
+
+    Một vài ký tự đặc biệt:
+    https://www.w3schools.com/java/java_strings_specchars.asp
+    \t : ký tự tab
+    \r : Về đầu dòng
+    \n : xuống dòng
+    \\ : \
+    \" : " (in ra dấu nháy đôi)
+
+2. Các method thường dùng
+String là Object (Class), nên nó sẽ có các method được xây dựng sẵn:
+    length() : lấy độ dài của chuỗi
+    trim() : bỏ đi dấu space đầu/cuối của chuỗi
+    toLowerCase() : viết thường tất cả ký tự
+    toUpperCase(): viết hoa tất cả ký tự
+    substring(): cắt chuối thành chuỗi con
