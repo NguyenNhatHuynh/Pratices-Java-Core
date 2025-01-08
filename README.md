@@ -182,11 +182,11 @@ Bạn có thể đánh dấu vào các mục đã hoàn thành trong khóa học
     - [x] Bài tập Lab 05
     - [x] Chữa bài tập Lab 05
 
-- [ ] **Chapter 6: Lab 06**
+- [x] **Chapter 6: Lab 06**
     - [x] String (Chuỗi)
-    - [ ] Bài tập sử dụng String
-    - [ ] Regular Expression
-    - [ ] Bài tập Regular Expression
+    - [x] Bài tập sử dụng String
+    - [x] Regular Expression
+    - [x] Bài tập Regular Expression
 
 - [ ] **Chapter 7: Lab 07**
     - [ ] Java Inheritance
