@@ -643,3 +643,63 @@ String là Object (Class), nên nó sẽ có các method được xây dựng s�
     toLowerCase() : viết thường tất cả ký tự
     toUpperCase(): viết hoa tất cả ký tự
     substring(): cắt chuối thành chuỗi con
+
+
+
+============================================
+Chapter 7: Lab 07
+Java Inheritance (Subclass and Superclass)
+
+#41. Java Inheritance
+    Tài liệu: https://www.w3schools.com/java/java_inheritance.asp
+    Với Java, chúng ta có thể "kế thừa/thừa hưởng" (inherit) thuộc tính và phương
+    thức (attribute & method) từ 1 class khác.
+
+Kế thừa được phân cấp thành:
+    - subclass (child) : đứa con, sẽ kế thừa/thừa hưởng lại "thành quả" của class khác
+    - superclass (parent): cha mẹ, sẽ cho đi "tài sản" để class khác kế thừa lại.
+
+1. Nguyên tắc kế thừa
+    - 1 class chỉ có thể kế thừa "duy nhất" 01 class khác (đơn kế thừa)
+    (nếu muốn kế thừa nhiều, sử dụng interface - sẽ học sau)
+    - Để kế thừa, sử dụng keyword "extends"
+
+Cú pháp: Subclass extends SuperClass { ... }
+Ví dụ:
+    class Vehicle {
+    protected String brand = "Ford"; // Vehicle attribute
+    public void honk() { // Vehicle method
+    System.out.println("Tuut, tuut!");
+      }
+    }
+
+class Car extends Vehicle {
+    private String modelName = "Mustang"; // Car attribute
+    public static void main(String[] args) {
+    // Create a myCar object
+    Car myCar = new Car();
+    // Call the honk() method (from the Vehicle class) on the myCar object
+    myCar.honk();
+    // Display the value of the brand attribute (from the Vehicle class) and the value of the
+    modelName from the Car class
+    System.out.println(myCar.brand + " " + myCar.modelName);
+    }
+}//Lưu ý về keyword "Protected"
+
+
+
+
+2. Mục đích của kế thừa
+Mục đích của thừa kế là "tái sử dụng" code.
+(không cần lặp lại code, tăng tính reuse, đồng thời phản ánh "thực tế vào code")
+
+- Lớp con (childClass) có thể sử dụng thuộc tính và phương thức của lớp cha (superClass)
+
+=> lưu ý về access modifier (chỉ kế thừa public/protected, không kế thừa private)
+
+- Lớp con "không kế thừa" hàm tạo của lớp cha
+
+
+
+
+
