@@ -701,5 +701,16 @@ Mục đích của thừa kế là "tái sử dụng" code.
 
 
 
+=====
+#43. Abstract Class (Basic)
+Tài liệu:
+https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html
+Đôi khi, chúng ta muốn có sự ràng buộc chặt chẽ giữa 'cha/con', ví dụ: tất cả con kế
+thừa, cần phải có 1 phương thức
+ví dụ:
+sinhVienIT => method TinhDiem()
+sinhVienCoKhi => method TinhDiem()
+=> abstract là cách chúng ta định nghĩa lớp trừu tượng
+
 
 
