@@ -12,6 +12,6 @@ public class SinhVienCoKhi extends SinhVien {
 
     @Override
     public double getDiem() {
-        return (scoreCNC + scorePLC) / 2;
+        return (this.scoreCNC + this.scorePLC) / 2;
     }
 }

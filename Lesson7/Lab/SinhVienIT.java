@@ -12,6 +12,6 @@ public class SinhVienIT extends SinhVien {
 
     @Override
     public double getDiem() {
-        return (scoreJava * 2 + scoreHTML) / 3;
+        return (this.scoreJava * 2 + this.scoreHTML) / 3;
     }
 }

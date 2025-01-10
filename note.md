@@ -714,3 +714,22 @@ sinhVienCoKhi => method TinhDiem()
 
 
 
+=======================
+#49. Java Package
+1. Package là gì ?
+Hiểu đơn giản, package === folder => nơi chứa code
+    - Package được tạo nên bởi tập hợp: class/interface
+    - Package có thể chứa sub-package (cha/con)
+2. Truy cập package
+    - Các class mà dự định sẽ được sử dụng ngoài package => định danh public
+    (private/default/protected/public)
+    - Các package khác nhau có thể khai báo các class "trùng tên"
+3. Sử dụng packages
+    Cú pháp:
+    import package_name.class_name;
+    ví dụ:
+    import java.util.Scanner;
+    package: java, sub-package: util , class: Scanner
+    import java.util.* ;
+    => import tất cả class có trong package java/util
+
