@@ -188,20 +188,20 @@ Bạn có thể đánh dấu vào các mục đã hoàn thành trong khóa học
     - [x] Regular Expression
     - [x] Bài tập Regular Expression
 
-- [ ] **Chapter 7: Lab 07**
-    - [ ] Java Inheritance
-    - [ ] Super Keyword trong Java
-    - [ ] Abstract Class (Basic)
-    - [ ] Polymorphism (Tính đa hình)
-    - [ ] Bài tập Lab 07
-    - [ ] Chữa bài tập Lab 07
+- [x] **Chapter 7: Lab 07**
+    - [x] Java Inheritance
+    - [x] Super Keyword trong Java
+    - [x] Abstract Class (Basic)
+    - [x] Polymorphism (Tính đa hình)
+    - [x] Bài tập Lab 07
+    - [x] Chữa bài tập Lab 07
 
-- [ ] **Chapter 8: Lab 08**
-    - [ ] Interface
-    - [ ] Interface với Java 8
-    - [ ] Java Package
-    - [ ] Bài tập Lab 08
-    - [ ] Chữa bài tập Lab 08
+- [x] **Chapter 8: Lab 08**
+    - [x] Interface
+    - [x] Interface với Java 8
+    - [x] Java Package
+    - [x] Bài tập Lab 08
+    - [x] Chữa bài tập Lab 08
 
 - [ ] **Chapter 9: Lab 09**
     - [ ] Try...catch
