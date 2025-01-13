@@ -733,3 +733,19 @@ Hiểu đơn giản, package === folder => nơi chứa code
     import java.util.* ;
     => import tất cả class có trong package java/util
 
+
+
+
+
+
+
+    =============================
+1. Cấu trúc dữ liệu:
+    ArrayList: Là một danh sách được lưu trữ trong một mảng động (dynamic array). Các phần tử được lưu trữ theo dạng liên tiếp trong bộ nhớ.
+    LinkedList: Là một danh sách liên kết (linked list). Mỗi phần tử của danh sách (gọi là node) bao gồm một giá trị và một tham chiếu tới phần tử tiếp theo trong danh sách.
+    2. Truy cập phần tử:
+    ArrayList: Truy cập phần tử nhanh hơn với độ phức tạp O(1) vì các phần tử được lưu trữ liên tiếp trong bộ nhớ, cho phép truy cập trực tiếp theo chỉ số (index).
+    LinkedList: Truy cập phần tử mất thời gian hơn với độ phức tạp O(n) trong trường hợp tồi tệ nhất vì cần phải duyệt qua từng node từ đầu danh sách (hoặc cuối nếu danh sách được đảo ngược).
+
+
+
