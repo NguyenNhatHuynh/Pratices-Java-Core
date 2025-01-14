@@ -748,4 +748,58 @@ Hiểu đơn giản, package === folder => nơi chứa code
     LinkedList: Truy cập phần tử mất thời gian hơn với độ phức tạp O(n) trong trường hợp tồi tệ nhất vì cần phải duyệt qua từng node từ đầu danh sách (hoặc cuối nếu danh sách được đảo ngược).
 
 
+=========================================
+
+Chapter 9: Lab 09
+Exception (Ngoại lệ)
+
+#52. Try...catch
+Tài liệu: https://docs.oracle.com/javase/tutorial/essential/exceptions/definition.html
+
+Bài toán:
+    Cho user nhập input từ bàn phím, và thực hiện phép chia : 10/x (với x nhập từ bàn phím)
+    Nếu nhập vào "ký tự" (ví dụ a,b, c...) hoặc nhập vào số 0, chương trình sẽ báo lỗi và
+    "dừng lại".
+
+Làm sao để:
+    - khi nhập vào ký tự ko hợp lệ, chương trình báo lỗi và "tiếp tục chạy"
+    - User tiếp tục nhập input cho tới khi hợp lệ
+
+    1. Exception (ngoại lệ) là gì ?
+    chương trình khi được chạy gồm 2 bước:
+    1 là compile (từ code java -> byte code ). nếu có lỗi, thì chương trình báo ngay (ko đề
+    cập tới lỗi này)
+    2 là run (từ bytecode -> JVM run ). nếu có lỗi, chương trình ngỏm luôn
+
+    => Ngoại lệ là các lỗi xảy ra sau khi "run chương trình" và khiến chương trình của
+    chúng ta "stop" => ngỏm
+
+    Phân loại exceptions:
+    https://www.geeksforgeeks.org/exceptions-in-java/
+    => Exception là cách chúng ta handle các exception "có thể biết trước được " (checked
+    exception)
+
+    2. Try.. catch để xử lý ngoại lệ
+    Cú pháp:
+    Try {
+    //your code
+    }catch(...){
+
+    //handle exception
+    }
+    //ví dụ chia cho 0
+    //todo
+    //dùng try với nhiều catch
+    try {
+    int b = 0;
+    int a = 6/0; //exception 1: ArithmeticException
+    int c[] = {9, 6};
+    c[2] = 10; //exception 2: ArrayIndexOutOfBoundsExceptions
+    }catch(ArithmeticException e){
+    //todo
+    }catch(ArrayIndexOutOfBoundsExceptions e){
+    //todo
+    }
+
+
 
