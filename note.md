@@ -803,3 +803,72 @@ Làm sao để:
 
 
 
+
+
+===========================================================
+XOANDEV
+
+Kiến thức Java Core bao gồm các khái niệm và tính năng cơ bản của ngôn ngữ lập trình Java mà lập trình viên cần nắm vững để phát triển ứng dụng trong Java. Những kiến thức này tạo nền tảng cho việc làm việc với các thư viện, framework, và công cụ trong hệ sinh thái Java. Dưới đây là các nội dung chính trong Java Core:
+
+1. Cú pháp cơ bản của Java:
+    Biến và kiểu dữ liệu: Các kiểu dữ liệu nguyên thủy (int, char, float, double, boolean...), kiểu đối tượng (String, Array, v.v.).
+    Câu lệnh điều kiện: if, else, switch.
+    Câu lệnh lặp: for, while, do-while.
+    Toán tử: Toán tử số học, so sánh, logic, gán, bitwise.
+
+2. Lớp và đối tượng (Object-Oriented Programming):
+    - Định nghĩa lớp (Class): Khai báo lớp, phương thức, biến thành viên, và các khái niệm liên quan.
+    - Khởi tạo đối tượng: Sử dụng từ khóa new, tạo đối tượng và khởi tạo.
+    - Hướng đối tượng (OOP): Kế thừa, đóng gói (encapsulation), đa hình (polymorphism), và trừu tượng (abstraction).
+
+3. Các đặc điểm của lớp và đối tượng:
+    - Constructor: Khởi tạo đối tượng khi tạo mới, constructor mặc định và constructor có tham số.
+    - Method Overloading (Nạp chồng phương thức): Định nghĩa nhiều phương thức có tên giống nhau nhưng khác tham số.
+    - Method Overriding (Ghi đè phương thức): Ghi đè các phương thức của lớp cha trong lớp con.
+
+4. Các tính năng của Java:
+    - String và StringBuilder/StringBuffer: Quản lý chuỗi trong Java, phân biệt String (immutable) và StringBuilder/StringBuffer (mutable).
+    - Collection Framework: Các lớp và interface như List, Set, Map, Queue, và các triển khai như ArrayList, HashSet, HashMap, LinkedList.
+    - Exception Handling (Xử lý ngoại lệ): Sử dụng try-catch, throw, throws, và finally để xử lý lỗi và ngoại lệ.
+    - Generics: Sử dụng kiểu dữ liệu tổng quát để làm việc với các lớp, phương thức mà không cần xác định kiểu dữ liệu cụ thể.
+
+5. Quản lý bộ nhớ và Garbage Collection:
+    - Heap và Stack: Sự khác biệt giữa bộ nhớ heap và stack trong Java.
+    - Garbage Collection (GC): Quản lý bộ nhớ tự động, cách thức hoạt động của Garbage Collector.
+
+6. Threading và Concurrency:
+    - Thread: Tạo và quản lý thread trong Java, sử dụng Thread và Runnable.
+    - Synchronization: Đồng bộ hóa các thread để tránh xung đột tài nguyên.
+    - Executor Framework: Quản lý việc thực thi thread.
+
+7. Input/Output (I/O):
+    - Streams: Làm việc với các dòng dữ liệu qua InputStream, OutputStream, Reader, Writer.
+    - File I/O: Đọc và ghi file bằng các lớp như FileReader, FileWriter, BufferedReader, BufferedWriter.
+
+8. Java 8 và các tính năng mới:
+    - Lambda Expressions: Viết hàm dưới dạng biểu thức lambda.
+    - Streams API: Làm việc với tập hợp dữ liệu theo kiểu hàm (functional-style).
+    - Default Methods: Phương thức mặc định trong interface.
+    - Optional: Tránh lỗi NullPointerException và làm việc với giá trị có thể rỗng.
+
+9. Các lớp cơ bản trong Java:
+    - Object Class: Lớp gốc của tất cả các lớp trong Java.
+    - Wrapper Classes: Các lớp bao bọc các kiểu dữ liệu nguyên thủy như Integer, Double, Character, v.v.
+    Math, Arrays: Các lớp hỗ trợ toán học và thao tác mảng.
+
+10. Java Reflection:
+    Reflection API: Cho phép tìm hiểu về các lớp, phương thức và trường của đối tượng trong thời gian chạy.
+
+11. An toàn và bảo mật trong Java:
+    - Security Manager: Quản lý quyền truy cập tài nguyên trong môi trường bảo mật.
+    - Cryptography: Các thư viện mã hóa, giải mã và bảo mật trong Java.
+
+12. Java Networking:
+    - Sockets: Làm việc với giao thức TCP/IP để tạo các ứng dụng mạng.
+    - URL, HTTP: Làm việc với URL, kết nối và gửi yêu cầu HTTP.
+
+13. Java Database Connectivity (JDBC):
+    Kết nối với cơ sở dữ liệu: Thực hiện các thao tác cơ bản với cơ sở dữ liệu như truy vấn, cập nhật, xóa và chèn dữ liệu qua JDBC.
+
+
+=========================================================
