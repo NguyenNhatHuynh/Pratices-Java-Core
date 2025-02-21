@@ -203,25 +203,20 @@ Bạn có thể đánh dấu vào các mục đã hoàn thành trong khóa học
     - [x] Bài tập Lab 08
     - [x] Chữa bài tập Lab 08
 
-- [ ] **Chapter 9: Lab 09**
-    - [ ] Try...catch
-    - [ ] Keyword finally
-    - [ ] Keyword Throws và Throw
-    - [ ] Bài tập Lab 09
-    - [ ] Chữa bài tập Lab 09
+- [x] **Chapter 9: Lab 09**
+    - [x] Try...catch
+    - [x] Keyword finally
+    - [x] Keyword Throws và Throw
+    - [x] Bài tập Lab 09
+    - [x] Chữa bài tập Lab 09
 
-- [ ] **Chapter 10: Lab 10**
-    - [ ] Tổng quan về Java IO (Stream)
-    - [ ] Phân loại Stream với Java IO
-    - [ ] Ví dụ về Read/Write File
-    - [ ] Path Class
+- [x] **Chapter 10: Lab 10**
+    - [x] Tổng quan về Java IO (Stream)
+    - [x] Phân loại Stream với Java IO
+    - [x] Ví dụ về Read/Write File
+    - [x] Path Class
 
-- [ ] **Chapter 11: Lab 11**
-    - [ ] Processes and Threads
-    - [ ] Thread Objects
-    - [ ] What's next? Tổng kết các kiến thức đã học
-
----
-
-## Lời Kết
-Khóa học này sẽ giúp bạn xây dựng nền tảng vững chắc về Java Core, đồng thời rèn luyện khả năng lập trình qua các bài tập thực hành.
+- [x] **Chapter 11: Lab 11**
+    - [x] Processes and Threads
+    - [x] Thread Objects
+    - [x] What's next? Tổng kết các kiến thức đã học
